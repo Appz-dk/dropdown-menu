@@ -1,0 +1,27 @@
+.nav-item a {
+  color: var(--text-clr);
+  text-decoration: none;
+}
+
+.nav-item {
+  width: calc(var(--nav-size) * 0.8);
+  display: grid;
+  place-items: center;
+}
+
+.icon-btn {
+  --button-size: calc(var(--nav-size) * 0.6);
+  width: var(--button-size);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background-color: var(--bg-accent);
+
+  /* For hover transition */
+  transition: filter 300ms;
+}
+
+.icon-btn:hover {
+  filter: brightness(1.4);
+}
