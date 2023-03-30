@@ -1,10 +1,10 @@
-import { PropsWithChildren, useState } from "react";
+import { useState } from "react";
 import { CSSTransition } from "react-transition-group";
 import classes from "./DropdownMenu.module.css";
 import MainMenu from "./dropdownMenus/MainMenu";
 import SettingsMenu from "./dropdownMenus/SettingsMenu";
 
-const DropdownMenu: React.FC<PropsWithChildren> = ({ children }) => {
+const DropdownMenu = () => {
   const [activeMenu, setActiveMenu] = useState("main");
 
   const onMenuChange = (menu: string) => {
