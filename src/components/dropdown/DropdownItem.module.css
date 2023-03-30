@@ -1,0 +1,13 @@
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  transition: background-color var(--speed);
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: var(--menu-item-hover);
+}
