@@ -1,4 +1,6 @@
 .dropdown {
+  /* If box-sizing is not unset the height is off by padding amount */
+  box-sizing: unset;
   position: absolute;
   width: 18rem;
   top: calc(var(--nav-size) - 5px);
@@ -8,6 +10,8 @@
   border: var(--border);
   border-radius: var(--border-radius);
   overflow: hidden;
+
+  transition: height var(--animation-speed) ease;
 }
 
 .menu {

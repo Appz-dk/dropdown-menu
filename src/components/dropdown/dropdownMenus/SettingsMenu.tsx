@@ -12,7 +12,14 @@ const SettingsMenu: React.FC<SettingsMenuProps> = ({ onMenuChange }) => {
       <DropdownItem leftIcon={<ArrowIcon />} onMenuChange={onMenuChange} gotoMenu="main">
         Back
       </DropdownItem>
-      <DropdownItem leftIcon={<CogIcon />}>Menu</DropdownItem>
+      <DropdownItem>Filler content</DropdownItem>
+      <DropdownItem>Filler content</DropdownItem>
+      <DropdownItem>Filler content</DropdownItem>
+      <DropdownItem>Filler content</DropdownItem>
+      <DropdownItem>Filler content</DropdownItem>
+      <DropdownItem>Filler content</DropdownItem>
+      <DropdownItem>Filler content</DropdownItem>
+      <DropdownItem>Filler content</DropdownItem>
     </>
   );
 };
